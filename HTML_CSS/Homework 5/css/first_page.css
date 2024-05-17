@@ -1,0 +1,136 @@
+body{
+    background-color: #3a4965;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+*{
+    box-sizing: border-box;
+}
+.pricing-plan{
+    width: 100%;
+    padding: 30px;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    font-family: 'Arimo', sans-serif;
+    color: #484848;
+    border: 2px solid #e0e0e0;
+    border-collapse: collapse;
+    text-align: center;
+}
+.bold{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.bold span{
+    font-size: 30px;
+}
+.standard{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #89c331;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 65px;
+    padding-right: 64px;
+}
+.ultimate{
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #f04a56;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.premium{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #20807c;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 82px;
+    padding-right: 81px;
+}
+.white_titles{
+    background-color: #fafafa;
+}
+.white_titles td{
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+}
+.price{
+    padding-left: 160px;
+}
+td span{
+    font-size: 24px;
+    float: right;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+td .default{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: normal;
+    font-weight: 100;
+}
+.grey_titles{
+    background-color: #f2f2f2;
+}
+.grey_titles td{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+.dark_grey__titles{
+    background-color: #e3e3e3;
+}
+.dark_grey__titles td{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+button{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 190px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    border: none;
+    border-radius: 8px;
+}
+.contact{
+    background-color: #484848;
+}
+.green{
+    background-color: #89c331;
+}
+.red{
+    background-color: #f04a56;
+}
+.blue{
+    background-color: #20807c;
+}
+button:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.5);
+}

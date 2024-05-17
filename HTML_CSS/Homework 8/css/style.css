@@ -1,0 +1,251 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.navigation_line{
+    height: 110px;
+    background: #fff;
+    display: flex;
+    text-align: center;
+}
+.logotype{
+    font-size: 35px;
+    color: #424f57;
+    text-decoration: none;
+    margin: 38px 184px 0 200px;
+    font-family: 'Roboto';
+}
+.logotype span{
+    font-size: 35px;
+    color: #14afca;
+    font-weight: bold;
+}
+.navigation_menu{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.navigation_menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    line-height: 1.2;
+    color: #586466;
+    padding-right: 55px;
+}
+.navigation_menu a:hover{
+    color: #14afca;
+}
+.slogan{
+    height: 480px;
+    background-image: url(/images/header/header_background.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 85%, 0 75%, 0 0);
+}
+.slogan_text{
+    font-size: 52px;
+    font-family: 'Futura';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.442;
+    text-align: center;
+}
+.description{
+    height: 360px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.headline{
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(20, 175, 202);
+    text-align: center;
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+}
+.bold_text{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: rgb(66, 79, 87);
+    line-height: 1.875;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+.normal_text {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: rgb(66, 79, 87);
+    line-height: 1.875;
+    text-align: center;
+    display: block;
+    width: 973px;
+}
+.companies{
+    height: 800px;
+    background-image: url(/images/second_block/companies_background.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(50% 7%, 100% 0, 100% 75%, 50% 84%, 0 75%, 0 0);
+}
+.companies_text{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 4.167;
+    text-align: center;
+}
+.brands_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 980px;
+}
+.brand{
+    height: fit-content;
+    margin-bottom: 120px;
+    margin-right: 35px;
+}
+.brand:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.meet_us{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.meet_us p {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+.person-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 130px;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    align-items: center;
+    margin-top: 40px;
+}
+.person img {
+    height: 206px;
+    width: 207px;
+    padding-bottom: 45px;
+}
+.person p {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: rgb(66, 79, 87);
+    line-height: 1.867;
+    text-align: center;
+}
+.testimonials{
+    height: 575px;
+    background-image: url(/images/fourth_block/background_testicles.jpg);
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(50% 7%, 100% 0, 100% 75%, 50% 84%, 0 75%, 0 0);
+}
+.testimonials .second-headline{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.quote{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: rgb(211, 204, 204);
+    font-style: italic;
+    line-height: 1.75;
+    text-align: center;
+    width: 877px;
+}
+.author{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.333;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 430px;
+}
+.why_us{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.why_us .second-headline{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #424f57;
+}
+.formula{
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: rgb(66, 79, 87);
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    width: 779px;
+    margin-top: 50px;
+}
+.copyright{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: rgb(61, 60, 60);
+    line-height: 1.714;
+    text-align: center;
+    width: 386px;
+    margin-top: 85px;
+}
+.copyright span{
+    font-family: 'Open Sans';
+    font-weight: bold;
+}

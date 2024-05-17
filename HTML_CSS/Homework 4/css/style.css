@@ -1,0 +1,342 @@
+body{
+    position: relative;
+    margin: 0;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+header{
+    padding-top: 22px;
+    padding-bottom: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logotype{
+    float: left;
+    margin-left: 81px;
+    margin-right: 734px;
+}
+.logotype a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.logotype a:hover{
+    color:#3cb878;
+}
+.welcome-text{
+    float:right;
+    margin-right: 167px;
+}
+.navigation-menu {
+    float: right;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+.navigation-menu a {
+    height: 34px;
+    display: inline-block;
+    padding-right: 43px; 
+    background: url("../images/signs.png") no-repeat;
+}
+.navigation-menu .calendar {
+    background-position: 8px -39px;
+}
+.navigation-menu .forum{
+    background-position: -4px 0;
+}
+.navigation-menu .journey{
+    background-position: -56px 0;
+}
+.navigation-menu a:hover{
+    cursor: pointer;
+    filter:invert(53%) sepia(79%) saturate(366%) hue-rotate(96deg) brightness(100%) contrast(82%);
+}
+.login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    vertical-align: middle;
+}
+.login p{
+    margin-top: 10px;
+    border-left: 2px solid #3f3936;
+    padding: 0 25px;
+}
+.login a{
+    text-decoration: none;
+    color: #3cb878;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.registration-form{
+    width: 440px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    padding-top: 29px;
+    padding-right: 58px;
+}
+.square{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #3cb878;
+    margin-right: 42px;
+}
+.text-sign-up{
+    margin-bottom: 30px;
+}
+.text-sign-up p{
+    float: left;
+    margin-top: -3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+}
+.text-log-in{
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    text-decoration: none;
+    color: #3cb878;
+}
+.text-log-in:hover{
+    text-decoration: underline;
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.facebook-sign{
+    margin-left: 62px;
+    background-color: #305db8;
+    width: 168px;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+.facebook-sign a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+.facebook-sign img{
+    margin-right: 18px;
+}
+.facebook-sign img:last-child{
+    border-right: 2px solid #2b54a5;
+    padding-right: 17px;
+}
+.facebook-sign:hover{
+    transition: 1s;
+    background: #264b96;
+}
+.google-sign{
+    background-color: #df4a32;
+    width: 168px;
+    height: 31px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.google-sign a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+.google-sign img{
+    margin-right: 18px;
+}
+.google-sign img:last-child{
+    border-right: 2px solid #c8422d;
+    padding-right: 17px;
+}
+.google-sign:hover{
+    transition: 1s;
+    background: #c3412c;
+}
+.division-line{
+    overflow: hidden;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-left: 62px;
+    padding: 33px 0;
+    color: #848484;
+}
+.division-line span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.division-line:before, .division-line:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #eaeaea;
+}
+.division-line:before {
+    margin-left: -100%;
+    right: 19px;
+}
+.division-line:after {
+    margin-right: -100%;
+    left: 19px;
+}
+.input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    margin-left: 62px;
+}
+input{
+    margin-bottom: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    border: 2px solid #eaeaea;
+    transition: all 0.3s; 
+    box-sizing: border-box; 
+}
+input:not(.no-animation):focus {
+    outline: none; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    transform: translateY(-5px) scale(1.05);
+}
+label{
+    float: left;
+}
+label a{
+    text-decoration: none;
+    color: #3cb878;
+}
+label a:hover{
+    text-decoration: underline;
+}
+input[type='checkbox']{
+    display: none;
+}
+label span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-top: 19px;
+  }
+  [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -4px;
+    left: 1px;
+    font-size: 16px;
+    color: #3cb878;
+  }
+  input[type='button']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background-color: #3cb878;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    width: 100%;
+    height: 46px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+  input[type='button']:hover{
+    cursor: pointer;
+    background-color: #329a65;
+    transition: 1s;
+  }
+@media(min-width:1200px){
+    .logotype{
+        margin-right: 300px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .logotype{
+        margin-right: 100px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .logotype{
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+    .logotype a{
+        font-size: 15pt;
+    }
+    .welcome-text{
+        margin-right: 50px;
+    }
+}
+@media (max-width: 767px) and (orientation: portrait){
+    .logotype{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    .logotype a{
+        font-size: 13pt;
+    }
+    header{
+        padding-top: 22px;
+    }
+    .welcome-text{
+        position: absolute;
+        margin-right: 20px;
+        z-index: -1;
+        opacity: 0;
+    }
+    .navigation-menu{
+        float:left;
+        margin-left: 22px;
+    }
+}
+@media (max-width: 767px) and (orientation: landscape){
+    .logotype{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    .logotype a{
+        font-size: 13pt;
+    }
+    header{
+        padding-top: 22px;
+    }
+    .welcome-text{
+        margin-right: 20px;
+    }
+    .navigation-menu{
+        float:left;
+        margin-left: 22px;
+    }
+}

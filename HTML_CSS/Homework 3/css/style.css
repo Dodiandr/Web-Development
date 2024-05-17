@@ -1,0 +1,152 @@
+body{
+    width: 1366px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+.background-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.logotype{
+    float: left;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: 155px;
+    margin-right: 656px;
+}
+.logotype img{
+    float: left;
+    width: 46px;
+    height: 44px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.logotype a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.logotype span{
+    float: left;
+    font-size: 12pt;
+}
+.logotype:hover > a {
+    cursor: pointer;
+    color: #f26522;
+}
+.logotype a:hover > img{
+  filter:  invert(52%) sepia(94%) saturate(2855%) hue-rotate(346deg) brightness(96%) contrast(97%);
+}
+.contact-us{
+    float: right;
+    margin-top: 48px;
+    margin-bottom: 47px;
+    margin-right: 146px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    font-style: normal;
+}
+.contact-us span{
+    float: right;
+    margin-top: 5px;
+}
+.tours{
+    margin-left: 160px;
+}
+.image-container{
+    float:left;
+    margin-right: 65px;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.image-container:hover{
+    cursor:pointer;
+}
+.image-container img{
+    width:300px;
+    height: 200px;
+    position: relative;
+    background: linear-gradient(to bottom, white, black);
+    padding: 3px;
+}
+.tour-description a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+}
+.image-container p{
+    opacity: 0;
+    bottom: -100px;
+    transition-duration: 0.6s;
+    position: absolute;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 16px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+}
+.image-container:hover p {
+    bottom: 49px;
+    opacity: 1;
+}
+.image-container .left-text{
+    float: left;
+    text-align: left;
+    background-color: #f26522;
+    font-size: 10px;
+    width: 100%;
+    padding-left: 22px;
+}
+.left-text span{
+    font-size: 18px;
+}
+.image-container .view-details{
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 17px;
+}
+.image-container .view-details::after{
+    content: " \203A";
+    padding-right: 18px;
+}
+.first-tour, .second-tour, .fourth-tour, .fifth-tour{
+    margin-left: 90px;
+}
+.third-tour{
+    margin-left: 105px;
+}
+.sixth-tour{
+    margin-left: 105px;
+}
+.tour-description img{
+    margin-bottom: 22px;
+}
+.tour-description a:hover > span{
+    cursor: pointer;
+    color: #f26522;
+}
+.copyright{
+    padding-bottom: 20px;
+    margin-left: 511px;
+    margin-right: 480px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+    font-style: normal;
+}
+
+

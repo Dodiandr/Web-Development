@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    background: #f5f6f7;
+    color: #373737;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+.navigation-menu {
+    background-color: #ffffff;
+    height: 80px;
+    align-content: center;
+}
+.navigation-menu a {
+    color: #16a085;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 60px;
+
+}
+.navigation-menu a:hover {
+	color: #000000;
+}
+.main-photo {
+    width: 100%;
+}
+.project {
+    margin: 0;
+}
+.slogan {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-bottom: 40px;
+}
+.project-description {
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.get-started {
+    width: 190px;
+    height: 50px;
+    background-color: #16a085;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+.get-started:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    height: 100px;
+}
+.useful-links {
+    width: 50%;
+    height: 100px;
+    margin-left: 100px;
+    align-content: center;
+    text-align: left;
+}
+.useful-links a{
+    color: #373737;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid #16a085;
+}
+.useful-links a:last-of-type {
+    border: none;
+}
+.copyrights {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
